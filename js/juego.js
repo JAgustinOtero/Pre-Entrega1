@@ -11,11 +11,11 @@ do
 
     // se le pide al usuario que ingrese un numero de 4 digitos y se comprueba que sea valido
     do{
-        intento = prompt("Elija un numero de 4 digitos")
+        intento = prompt("Elija un numero de 4 digitos (del 1 al 9)")
 
         while(!esValido(intento))
         {
-            intento = prompt("Sin repetir numeros. Por favor, ingrese un numero de 4 digitos")
+            intento = prompt("Sin repetir numeros. Por favor, ingrese un numero de 4 digitos (del 1 al 9)")
         }
         cant_intentos ++
     }
